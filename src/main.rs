@@ -85,11 +85,6 @@ impl Conta {
         self.saldo -= valor;
         Ok(())
     }
-
-    // Método que CONSOME (self)
-    fn fechar(self) {
-        println!("❌ Conta {} ({}) fechada", self.numero, self.titular);
-    }
 }
 
 // ============ AULA 3: STRUCT BANCO ============
